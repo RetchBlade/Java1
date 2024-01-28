@@ -22,7 +22,7 @@ public class Aufgabe5 {
 	                        JOptionPane.showMessageDialog(null, " Zu wenig Noteneingaben! ");
 	                        //System.out.println(" Zu wenig Noteneingaben! ");
 	                    }
-	                } else if (note < 0 || note > 6) {
+	                } else if (note < 0 || note >= 6) {
 	                    JOptionPane.showMessageDialog(null, " Nur Ziffern von 1 - 6! ");
 	                    //System.out.println(" Nur Ziffern von 1 - 6! ");
 	                    break;

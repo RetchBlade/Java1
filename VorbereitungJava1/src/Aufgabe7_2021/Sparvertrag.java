@@ -1,6 +1,6 @@
 package Aufgabe7_2021;
 
-public class Sparvertrag {
+public abstract class  Sparvertrag {
 	private String sparer, vertragTyp;
 
 	public Sparvertrag(String sparer, String vertragTyp) {
